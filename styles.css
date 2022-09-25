@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+
+    --darkCyan: hsl(185, 75%, 39%);
+    --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+    --darkGrayishBlue: hsl(227, 10%, 46%);
+
+    --darkGray: hsl(0, 0%, 59%);
+}
+
+body{
+    position: relative;
+    
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-color: var(--darkCyan);
+    background-position: bottom -1100px right -250px, top -400px left -200px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+
+
+.mainContainer{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+}
+
+.avatarImg{
+    position: absolute;
+    border: 5px solid white;   
+    border-radius: 50%;
+    left: 150px;
+    top: 105px;
+    width: 100px;
+}
+
+.patternImg{
+    border-radius: 15px 15px 0 0;
+    height: 100%;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.innerContainer{
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.bottomContainer{
+    background-color: white;
+padding: 20px;
+    display: flex;
+    border-top: 1px lightgray solid;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+}
+.numbersCell{
+    margin: auto;
+}
+
+span{
+    color: var(--darkGrayishBlue);
+    font-weight: 400;
+}
+p{
+    color: var(--darkGrayishBlue);
+    margin-top: 10px;
+}
+
+.bottomContainer p{
+    font-size: 13px;
+}
+
